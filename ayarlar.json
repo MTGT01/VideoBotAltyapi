@@ -1,0 +1,5 @@
+{
+  "prefix": "", // " " arasına botunuzun prefixinizi giriniz örneğin (prefix yardım)
+  "token": "", // Botunuzun tokenini giriniz
+  "sahip": "" // Kendi discord idnizi giriniz
+}
