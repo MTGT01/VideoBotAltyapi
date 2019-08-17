@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const http = require('http');
     app.get("/", (request, response) => {
-    console.log(` az önce pinglenmedi. Sonra ponglanmadı... ya da başka bir şeyler olmadı.`);
+    console.log(` Herhangi Onemli bir şey olmadı.`);
     response.sendStatus(200);
     });
     app.listen(process.env.PORT);
@@ -35,6 +35,7 @@ var prefix = ayarlar.prefix;
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
     msg.channel.sendMessage('as');
+  }
     });
 
 
@@ -43,7 +44,7 @@ const log = message => {
 };
 
 client.on("ready", () => {
-  client.user.setGame(`m-davet | m-yardım | mtgtbot.glitch.me`, "https://www.twitch.tv/dexter036d");
+  client.user.setGame(`m-davet | m-yardım | mtgtbot.glitch.me`, "https://www.twitch.tv/lucibey");
         }, 
   console.log("Bağlandım!")
 );
